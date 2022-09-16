@@ -269,7 +269,6 @@ const main_cmd = document.querySelector('#B912tjshUC357kskjbcdskjfbsdjfb32642642
         }
  
         function removeS(value) {
-            let r1 = value.replace(/\s/g, '')
-            return r1.replace(/~/g, '')
+            return value.replace(/\s/g, '')
         }
  
